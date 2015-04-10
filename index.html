@@ -12,7 +12,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Focusman</h1>
-      <h2 class="project-tagline">基于SAE的Webdav Server</h2>
+      <h2 class="project-tagline">构建在SAE平台上的私有webdav服务</h2>
       <a href="https://github.com/mylxsw/Focusman" class="btn">View on GitHub</a>
       <a href="https://github.com/mylxsw/Focusman/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/mylxsw/Focusman/tarball/master" class="btn">Download .tar.gz</a>
@@ -20,7 +20,25 @@
 
     <section class="main-content">
       <h1>
-<a id="基于sae的webdav-server" class="anchor" href="#%E5%9F%BA%E4%BA%8Esae%E7%9A%84webdav-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>基于SAE的webdav Server</h1>
+<a id="focusman-" class="anchor" href="#focusman-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Focusman </h1>
+
+<p>Focusman是构建在SAE平台上的webdav服务软件，用于构建私有的Webdav服务, 以便共某些应用进行数据存储和多端同步使用。</p>
+
+<h4>
+<a id="安装说明" class="anchor" href="#%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E" aria-hidden="true"><span class="octicon octicon-link"></span></a>安装说明</h4>
+
+<p>本程序需要上传到SAE，PHP版本选择5.6，同时，需要启用MySQL，KVDB支持，并且创建名称为<code>focusman</code>的Storage domain。</p>
+
+<p>在上传程序之前，需要先初始化项目</p>
+
+<pre><code>git clone https://github.com/mylxsw/Focusman.git
+cd Focusman
+composer update
+</code></pre>
+
+<blockquote>
+<p>本项目采用了composer进行依赖管理，因此需要先使用composer更新所有项目的依赖在上传到SAE。</p>
+</blockquote>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/mylxsw/Focusman">Focusman</a> is maintained by <a href="https://github.com/mylxsw">mylxsw</a>.</span>
