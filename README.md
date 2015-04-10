@@ -1,7 +1,9 @@
-Focusman - 构建在SAE平台上的webdav服务
-=====================
+Focusman 
+=======
 
-##安装说明
+Focusman是构建在SAE平台上的webdav服务软件，用于构建私有的Webdav服务, 以便共某些应用进行数据存储和多端同步使用。
+
+####安装说明
 
 本程序需要上传到SAE，PHP版本选择5.6，同时，需要启用MySQL，KVDB支持，并且创建名称为`focusman`的Storage domain。
 
