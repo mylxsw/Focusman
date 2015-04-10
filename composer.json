@@ -1,0 +1,31 @@
+{
+    "name": "aicode/webdav",
+    "description": "WebDav",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yiyao Guan",
+            "email": "mylxsw@126.com"
+        }
+    ],
+    "require": {
+        "sabre/dav": "~2.1.1",
+        "mnapoli/php-di": "~4.0",
+        "catfan/medoo": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://pkg.phpcomposer.com/repo/packagist/"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Focusman\\": "src/"
+        }
+    }
+}
